@@ -26,6 +26,11 @@ function desencriptar(e){
     var textoDesencriptado = "";
     var texto = document.getElementById("mensaje").value;
 
+    if (expresion.test(texto) == true) {
+        visualizarAlerta();
+        return;
+    }
+
     textoDesencriptado = texto.replaceAll("ufat", "u");
     textoDesencriptado = textoDesencriptado.replaceAll("ober", "o");
     textoDesencriptado = textoDesencriptado.replaceAll("ai", "a");
