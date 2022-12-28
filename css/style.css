@@ -7,7 +7,7 @@ body{
 
 .container {
     width: 100%;
-    min-height: 88vh;
+    min-height: 75vh;
     max-width: 90rem;
     padding: 2.5rem;
 
@@ -24,7 +24,7 @@ body{
     margin: 0 2.75rem 0 2.75rem;
 }
 .header-img {
-    max-width:150px;
+    max-width:120px;
     max-height:150px;
 }
 
@@ -108,7 +108,7 @@ body{
 .panel-resultado {
     background-color: #fff;
     max-width: 25rem;
-    width: 100%;
+    width: 80%;
     margin: 0 0 0 2.5rem;
     padding: 2rem;
     border-radius: 2.25rem;
@@ -181,8 +181,14 @@ body{
     display: none;
 }
 
+footer{
+    text-align: center;
+    background-color: #0A3871;
+    padding:40px;
+}
+
 .copyright{
-    color:#0A3871;
+    color:#FFFFFF;
     font-size: 13px;
     margin:20px;
 }
